@@ -3,9 +3,7 @@
 
 @font-face {
     font-family: 'xmen'; /* Substitua por um nome fácil de lembrar */
-    src: url('caminho/para/sua/fonte.woff2') format('woff2'),
-         url('caminho/para/sua/fonte.woff') format('woff'),
-         url('fonts/sui\ generis\ rg.ttf') format('truetype');
+    src: url('fonts/sui\ generis\ rg.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
