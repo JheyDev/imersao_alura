@@ -11,7 +11,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "xmen", sans-serif; /* Define a fonte padrão */
-    background-color: #DDDDDD; /* Cor de fundo da página */
+    background-image: url('images/xmen-wallpaper.jpg'); /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -24,9 +24,12 @@ body {
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    background-image: linear-gradient(to right, #ff9900, #ff9100);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Torna o texto transparente para revelar o gradiente */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    text-shadow: 1px 1px rgb(255, 153, 0), -1px -1px #444;
 }
 
 /* Estiliza as seções da página */
