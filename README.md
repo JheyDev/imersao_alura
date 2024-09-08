@@ -18,21 +18,8 @@ Esse projeto te leva para um mundo onde você pode pesquisar seus personagens fa
 
 **Quer mutar o seu projeto também?**
 
+**[Link Versel](https://vercel.com/jheydevs-projects)**
+
 Esse projeto é open-source, então você pode pegar o código e adaptá-lo para criar a sua própria enciclopédia sobre qualquer coisa que você quiser! Se precisar de ajuda, é só me mandar um email: jesori55@gmail.com.
 
 **Lembre-se:** A força está dentro de você! 
-
-**#X-Men #Mutantes #JavaScript #HTML #CSS #OpenSource**
-
----
-
-**Dicas para deixar o seu README.md ainda mais mutante:**
-
-* **Imagens:** Adicione algumas imagens dos seus personagens favoritos para deixar o README mais divertido e visualmente atraente.
-* **GIFs:** GIFs animados podem deixar o seu README mais dinâmico e mostrar como a sua aplicação funciona na prática.
-* **Emojis:** Use emojis para deixar o seu README mais expressivo e divertido.
-* **Seção de Contribuições:** Incentive outras pessoas a contribuírem para o seu projeto, criando uma seção onde você explica como elas podem ajudar.
-
-**Com esse README.md, você vai deixar todo mundo querendo explorar o seu projeto!**
-
-**E aí, curtiu? Mutante!** 
