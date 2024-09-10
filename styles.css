@@ -11,9 +11,6 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "xmen", sans-serif; /* Define a fonte padrão */
-    background-image: url('images/xmen-wallpaper.jpg'); /* Cor de fundo da página */
-    background-size: cover;
-    background-position: center;
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -21,6 +18,15 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
+    overflow: hidden; /* Remove o scroll */
+}
+
+.background {
+    background-image: url('images/xmen-wallpaper.jpg'); /* Cor de fundo da página */
+    background-color: rgba(0, 0, 0, 0.521); /* Define a cor de fundo com opacidade */
+    background-blend-mode: multiply; /* Mescla a cor de fundo com a imagem */
+    background-size: cover;
+    background-position: center;
 }
 
 /* Estiliza os títulos h1 */
@@ -81,13 +87,29 @@ section button:hover {
     border-radius: 0.6rem; /* Borda arredondada */
 }
 
+.imagem-resultado {
+    float: right;
+    display: block;
+    margin: 0 10px 0 0;
+    width: 200px; /* set a fixed width */
+    height: 200px; /* set a fixed height */
+    border-radius: 20%;
+    object-fit: cover; /* ensure the image is scaled to fit the container */
+}
+
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF; /* Cor de fundo dos itens */
+    /* existing styles */
+    background: #ffffffde; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    margin-left: 1rem; /* Adiciona um espaço à esquerda */
+    margin-right: 1rem; /* Adiciona um espaço à direita */
+    margin-bottom: 1rem; /* Manter a margem inferior */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    width: 800px; /* fixed width */
+    margin-top: 3px; /* Adiciona um espaço acima */
+    margin-bottom: 3px;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
@@ -99,7 +121,7 @@ section button:hover {
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #30475E; /* Cor do texto dos links */
+    color: #000000; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
@@ -111,6 +133,9 @@ section button:hover {
 .descricao-meta {
     color: #45474B; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
+    word-break: break-word;
+    white-space: pre-wrap;
+    max-width: 65%;
 }
 
 /* Estiliza o rodapé da página */
