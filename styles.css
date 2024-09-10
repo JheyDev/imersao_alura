@@ -91,8 +91,8 @@ section button:hover {
     float: right;
     display: block;
     margin: 0 10px 0 0;
-    width: 400px; /* set a fixed width */
-    height: 500px; /* set a fixed height */
+    width: 300px; /* set a fixed width */
+    height: 400px; /* set a fixed height */
     border-radius: 2%;
     object-fit: cover; /* ensure the image is scaled to fit the container */
 }
@@ -108,8 +108,20 @@ section button:hover {
     margin-bottom: 1rem; /* Manter a margem inferior */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
     width: 800px; /* fixed width */
+    height: 500px;
     margin-top: 3px; /* Adiciona um espaço acima */
-    margin-bottom: 3px;
+    margin-bottom: 20px;
+    }
+
+
+.item-resultado .descricao-meta {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-resultado .leia-mais {
+    cursor: pointer;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
@@ -139,8 +151,9 @@ section button:hover {
     margin: 0.5rem 0; /* Margem acima e abaixo */
     word-break: break-word;
     white-space: pre-wrap;
-    max-width: 55%;
-}
+    max-width: 100%;
+    font-size: 15px;
+    }
 
 /* Estiliza o rodapé da página */
 footer {
